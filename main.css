@@ -8,10 +8,19 @@
 }
 
 body {
-    margin: 0 auto;
+    margin: unset;
+    padding: 0 10px;
     background: rgba(255, 255, 255, 1);
 }
 
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .row {
     display: flex;
     flex-wrap: wrap;
