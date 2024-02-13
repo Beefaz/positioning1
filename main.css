@@ -36,6 +36,7 @@ main {
 .card {
     position: relative;
     flex: 1 1 30%;
+    min-height: 300px;
 }
 
 img {
